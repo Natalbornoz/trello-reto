@@ -8,16 +8,17 @@ body {
 }
 
 nav {
-overflow: hidden;
-clear: both;
-background-color: #026AA7;
-padding-top: 20px;
+  overflow: hidden;
+  clear: both;
+  background-color: #026AA7;
+  padding-top: 20px;
 }
 
 #nav-search {
- border: 1px solid red;
- display: inline-block;
- width: 100%;
+ /*border: 1px solid red;*/
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 #btn-tableros {
@@ -26,11 +27,12 @@ padding-top: 20px;
   color: #FFF;
   padding: 7px;
   border-radius:7px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   float: left;
   display: inline-block;
   margin-left: 30px;
   margin-right: 282px;
+  border: none;
 }
 
 #btn-tableros i {
@@ -62,14 +64,14 @@ padding-top: 20px;
 }
 
 i {
- border: 1px solid green;
- display: inline-block;
- z-index: 600px;
+  /*border: 1px solid green;*/
+  display: inline-block;
+  z-index: 600px;
 
 
 }
 
-a {
+/*a {
   width: 35px;
   height: 35px;
   background-color: blue;
@@ -82,10 +84,10 @@ a {
   display: inline-block;
   margin-right: 1%;
   float: right;
-}
+}*/
 
 section {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 
@@ -107,24 +109,40 @@ h4 {
   color: #026AA7;
 }
 
+#container {
+  /*border: 1px solid pink;*/
+}
+
+#contiene a {
+  background-color: #026AA7;
+  font-size: 17px;
+  color: #FFF;
+  padding: 7px;
+  border-radius:7px;
+  /*border: 1px solid green;*/
+  margin-left: 30px;
+  border: none;
+}
+
 #btn {
   background-color: #026AA7;
   font-size: 17px;
   color: #FFF;
   padding: 7px;
   border-radius:7px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   margin-left: 30px;
-
+  border: none;
 }
 
-#button {
+#container button {
   background-color: #026AA7;
   font-size: 17px;
   color: #FFF;
   padding: 7px;
   border-radius:7px;
-  border: 1px solid green;
+  border: none;
+  /*border: 1px solid green;*/
 
 }
 
